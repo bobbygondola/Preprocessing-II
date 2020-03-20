@@ -1,1 +1,24 @@
 // Mixins in here
+
+.buttonMix(@borderwidth, @borderstyle, @bordercolor, @color, @bgcolor, @padding, @borderradius, @height, @width){
+    border-width: @borderwidth;
+    border-style: @borderstyle;
+    border-color: @bordercolor;
+    color: @color;
+    background-color: @bgcolor;
+    padding: @padding;
+    border-radius: @borderradius;
+    height: @height;
+    width: @width
+
+}
+
+.btn{
+    .buttonMix(1px, solid, darkcyan, white, darkcyan, 5px, 20%, 20%, 80%);
+    
+    h6{
+        text-align: center;
+        font-size: 1.9rem;
+        margin-top: 5%;
+    }
+}
