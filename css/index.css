@@ -195,6 +195,9 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home {
+  /****************************Form***********************************************************************/
+}
 .home .header {
   display: flex;
   align-items: center;
@@ -297,5 +300,8 @@ img {
     display: flex;
     justify-content: space-between;
     margin-left: 23%;
+  }
+  .btn h6 {
+    margin-bottom: 5%;
   }
 }
